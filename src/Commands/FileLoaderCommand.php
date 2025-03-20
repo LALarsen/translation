@@ -21,6 +21,12 @@ class FileLoaderCommand extends Command
      */
     protected $description = "Load language files into the database.";
 
+    protected $languageRepository;
+    protected $translationRepository;
+    protected $path;
+    protected $files;
+    protected $defaultLocale;
+
     /**
      *  Create a new mixed loader instance.
      *

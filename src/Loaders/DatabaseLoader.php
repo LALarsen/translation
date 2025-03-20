@@ -17,6 +17,8 @@ class DatabaseLoader extends Loader
      */
     protected $translationRepository;
 
+    protected $hints;
+
     /**
      *  Create a new mixed loader instance.
      *
